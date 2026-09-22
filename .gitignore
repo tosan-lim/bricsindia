@@ -1,0 +1,27 @@
+# WordPress core and runtime files
+wp-admin/
+wp-includes/
+wp-content/plugins/
+wp-content/uploads/
+wp-content/cache/
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/wpvividbackups/
+wp-content/wpvivid_staging/
+wp-content/upgrade/
+wp-content/languages/
+wp-content/nfwlog/
+wp-content/*.log
+wp-content/mu-plugins/*
+!wp-content/mu-plugins/brics-contact-mail.php
+!wp-content/mu-plugins/brics-disable-comments.php
+!wp-content/mu-plugins/brics-seo.php
+
+# Local configuration and secrets
+wp-config.php
+.env
+
+# Keep only the custom theme in version control
+wp-content/themes/*
+!wp-content/themes/brics-modern/
+!wp-content/themes/brics-modern/**
